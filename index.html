@@ -1,0 +1,1156 @@
+<!-- Build By Mohammed Furkhan on MAY 09 2025 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>"> -->
+<!-- Add this in your head section -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👨‍💻</text></svg>">
+
+    <title>Mohammed Furkhan</title>
+    <!-- ====CSS Files-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/skins/color-1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap" rel="stylesheet">
+    <!--====Style Switcher===-->
+    <link rel="stylesheet" href="css/skins/color-1.css" class="alternate-style" title="color-1" disabled>
+    <link rel="stylesheet" href="css/skins/color-2.css" class="alternate-style" title="color-2" disabled>
+    <link rel="stylesheet" href="css/skins/color-3.css" class="alternate-style" title="color-3" disabled>
+    <link rel="stylesheet" href="css/skins/color-4.css" class="alternate-style" title="color-4" disabled>
+    <link rel="stylesheet" href="css/skins/color-5.css" class="alternate-style" title="color-5" disabled>
+    <link rel="stylesheet" href="css/style-switcher.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="https://unpkg.com/typed.js@2.0.12"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    
+<style>
+    .timeline-item {
+        position: relative;
+        padding-left: 37px;
+        padding-bottom: 50px;
+    }
+    
+    .timeline-item:before {
+        content: "";
+        width: 1px;
+        position: absolute;
+        left: 6px;
+        top: 0;
+        height: 100%;
+        background-color: var(--skin-color);
+    }
+    .loading-animation {
+        width: 100%;
+        height: 4px;
+        background: linear-gradient(to right, var(--skin-color) 50%, transparent 50%);
+        background-size: 200% 100%;
+        animation: loading 1s infinite;
+    }
+    
+    @keyframes loading {
+        to { background-position: -200% 0; }
+    }
+    
+    .progress-in {
+        animation: progress 1s ease-in-out;
+    }
+    .project-card {
+        background: var(--bg-black-100);
+        border-radius: 10px;
+        padding: 20px;
+        margin: 15px;
+        transition: all 0.3s ease;
+    }
+    
+    .project-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+    }
+    
+    @keyframes progress {
+        0% { width: 0; }
+        100% { width: 100%; }
+    }
+    .technologies-item-inner {
+        transition: all 0.3s ease;
+    }
+    
+    .technologies-item-inner:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    }
+    
+    .resume-content {
+        width: 100%;
+        background: var(--bg-black-100);
+        border-radius: 10px;
+        padding: 30px;
+    }
+
+    .resume iframe {
+        background: var(--bg-black-100);
+        transition: all 0.3s ease;
+    }
+
+    .resume iframe:hover {
+        box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+    }
+
+
+    
+    .skills-container {
+        max-width: 800px;
+        margin: 20px auto;
+    }
+    
+    .skills-list {
+        list-style: none;
+        padding: 0;
+    }
+    
+    .skills-list li {
+        margin: 15px 0;
+        padding: 10px;
+        border-left: 3px solid var(--skin-color);
+        background: rgba(255, 255, 255, 0.05);
+    }
+    
+    .skills-list strong {
+        color: var(--skin-color);
+        margin-right: 8px;
+    }
+    
+</style>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GVWV4C5C02"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-GVWV4C5C02');
+    </script>
+</head>
+
+<body>
+    <!--===Main Container Start===-->
+    <div class=" container">
+        <!--==Aside Start==-->
+        <div class="aside">
+            <div class="logo">
+                <a href="#"><span></span>Furkhan</a>
+            </div>
+            <div class="nav-toggler">
+                <span></span>
+            </div>
+            <ul class="nav">
+                <li><a href="#home" class="active"><i class="fa fa-home"></i>Home</a></li>
+                <li><a href="#about"><i class="fa fa-user"></i>About</a></li>
+                <li><a href="#technologies"><i class="fa fa-laptop"></i>Technologies</a></li>
+                <li><a href="#portfolio"><i class="fa fa-briefcase"></i>Portfolio</a></li>
+                <li><a href="#contact"><i class="fa fa-comments"></i>Contact</a></li>
+               
+                    <!-- Add this line after your existing nav items -->
+                    <li><a href="#resume"><i class="fa fa-file-text"></i> Resume</a></li>
+               
+                
+            </ul>
+        </div>
+        <!--==Aside End==-->
+        <!--===Main Container Start===-->
+        <div class="main-content">
+            <!--==Home Section Start==-->
+            <section class="home active section" id="home">
+                <div class="container">
+                    <div class="row">
+                        <div class="home-info padd-15">
+                            <h3 class="hello">Hello, I'm <i>Mohammed Furkhan</i> 👋</h3>
+                            <h3 class="my-profession">I'm a <span class="typing">DevOps Engineer</span></h3>
+                            <p class="transparent-bg-text">
+                            
+<p>A skilled DevOps Engineer with expertise in automating, deploying, and maintaining scalable infrastructure using modern tools and practices.Currently working at TCS as an DevOps Engineer, focusing on infrastructure automation and deployment optimization.
+<p class="skills-container">
+    <ul class="skills-list">
+        <li>
+            <strong>Infrastructure as Code (IaC):</strong> 
+            Terraform, CloudFormation, Ansible
+        </li>
+        
+        <li>
+            <strong>Containerization & Orchestration:</strong>
+            Docker, Kubernetes
+        </li>
+        
+        <li>
+            <strong>CI/CD Implementation:</strong>
+            Jenkins, GitLab CI, GitHub Actions
+        </li>
+        
+        <li>
+            <strong>Cloud Expertise:</strong>
+            AWS services and infrastructure
+        </li>
+        
+        <li>
+            <strong>Monitoring & Logging:</strong>
+            Prometheus, Grafana, ELK Stack
+        </li>
+        
+        <li>
+            <strong>Version Control:</strong>
+            Git, collaborative workflows
+        </li>
+        
+        <li>
+            <strong>Scripting:</strong>
+            Python, Bash, Shell
+        </li>
+        
+        <li>
+            <strong>Security:</strong>
+            DevSecOps, compliance, infrastructure security
+        </li>
+    </ul>
+    <!-- <a href="images/mdfurkhan.pdf" target="_blank"  class="btn">Download Resume</a>
+    <a href="https://mdfurkhan.streamlit.app" target="_blank"  class="btn">View Resume</a> -->
+</p>
+
+</p>
+
+<!-- • Infrastructure as Code (IaC) using Terraform, CloudFormation, and Ansible
+• Containerization with Docker and container orchestration using Kubernetes
+• CI/CD pipeline implementation using Jenkins, GitLab CI, and GitHub Actions
+• Cloud platforms with focus on AWS services and infrastructure
+• Monitoring and logging solutions like Prometheus, Grafana, and ELK Stack
+• Version control with Git and collaborative development workflows
+• Scripting languages including Python, Bash, and Shell scripting
+• Security best practices and compliance in cloud infrastructure -->
+
+                        </div>
+                        <!-- <div class="home-img padd-15"> -->
+                            <!-- <img src="images/furkhan.jpg" alt=""> -->
+<!-- </div> -->
+                    </div>
+                </div>
+            </section>
+            <!--==Home Section End==-->
+
+
+            <!-- Resume Section Start -->
+            <section class="resume section" id="resume">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Interactive Resume</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="resume-content padd-15">
+                            <div id="loading" style="text-align: center; padding: 20px;">
+                                Loading interactive resume...
+                            </div>
+                            <div style="text-align: center; margin-bottom: 20px;">
+                                <a href="https://mdfurkhan.streamlit.app" target="_blank" class="btn">
+                                    Open Resume in New Tab
+                                </a>
+                            </div>
+                            <style>
+                            .float-button {
+                                position: fixed;
+                                bottom: 20px;
+                                right: 20px;
+                                z-index: 1000;
+                                padding: 10px 20px;
+                                border-radius: 5px;
+                                background: var(--skin-color);
+                                color: #fff;
+                                text-decoration: none;
+                                box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+                                transition: all 0.3s ease;
+                            }
+                            
+                            .float-button:hover {
+                                transform: translateY(-2px);
+                                box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+                            }
+                            </style>
+                            
+                            <a href="https://mdfurkhan.streamlit.app" target="_blank" class="float-button">
+                                Open Resume
+                            </a>
+                            
+                            <!-- <iframe 
+                                src="https://mdfurkhan.streamlit.app" 
+                                width="100%" 
+                                height="800px" 
+                                frameborder="0"
+                                style="border: 1px solid #ddd; border-radius: 8px; opacity: 0; transition: opacity 0.3s;"
+                                onload="this.style.opacity=1; document.getElementById('loading').style.display='none'"
+                                onerror="handleIframeError()"
+                            ></iframe> -->
+                           
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+            <!-- Resume Section End -->
+            
+            <!--==About Section Start==-->
+            <section class="about section " id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>About Me</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="about-content padd-15">
+                            <div class="row">
+                                <div class="about-text padd-15">
+                                    <h3>Myself Mohammed Furkhan || <span>DevOps Engineer</span></h3>
+                                    <p> 
+                                        I am a dedicated fresher with skills in cloud computing, automation, and infrastructure management. I am looking 
+                                        to join a organization where I can apply my DevOps expertise, contribute to continuous 
+                                        integration/deployment pipelines, and grow professionally.
+                                        
+                                        Technical Skills:
+                                        
+                                        Infrastructure & Cloud:
+                                        - AWS Services (EC2, S3, RDS, Lambda)
+                                        - Infrastructure as Code (Terraform, CloudFormation)
+                                        - Linux System Administration
+                                        
+                                        CI/CD & Automation:
+                                        - Jenkins/GitLab CI
+                                        - Docker, Kubernetes
+                                        - Git & GitHub/GitLab
+                                        
+                                        Monitoring & Operations:
+                                        - Prometheus & Grafana
+                                        - ELK Stack (Elasticsearch, Logstash, Kibana)
+                                        - New Relic/Datadog
+                                        
+                                        Scripting & Tools:
+                                        - Python/Shell Scripting
+                                        - Ansible
+                                        - JIRA & Confluence
+                                        
+                                        Security & Networking:
+                                        - Security best practices
+                                        - Network fundamentals
+                                        - SSL/TLS, VPN configurations
+                                        
+                                        Additional Tools:
+                                        - Postman (API Testing)
+                                        - SonarQube (Code Quality)
+                                        - Maven/npm (Build Tools)
+                                        
+
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="personal-info padd-15">
+                                    <div class="row">
+                                        
+                                        <div class="info-item padd-15">
+                                            <p>LinkedIn : <a style="color: var(--skin-color); text-decoration: none;"  href="https://www.linkedin.com/in/mohammed-furkhan-93256b1a2" target="_blank">Connect me on Linkedin</a></p>
+
+
+                                        </div>
+                                        <div class="info-item padd-15">
+                                        
+                                                <p>Email : <a   style="color: var(--skin-color);text-decoration: none;" href="https://mail.google.com/mail/?view=cm&fs=1&to= mohammedfurkhan073@gmail.com&su=Subject&body=Body" target="_blank">Compose Email</a>
+
+                                            </p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Degree: <span  style="color: var(--skin-color);"> B.Tech CSE</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Website : <a  style="color: var(--skin-color);text-decoration:none;" " href="https://mdfurkhan.netlify.app" target="_blank">https://mdfurkhan.netlify.app</a></p>
+
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Resume : <a  style="color: var(--skin-color);text-decoration:none;" " href="https://mdfurkhan.streamlit.app" target="_blank">https://mdfurkhan.streamlit.app</a></p>
+
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Phone:  <a style="color: var(--skin-color);text-decoration: none;" href="tel:+912117405450" >
+                                                +91 8217405450</a></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Location: <span>Hyderabad,India</span></p>
+                                        </div>
+
+
+                                        <div class="info-item padd-15">
+                                            <p>GitHub:  <span>
+                                            <a  style="color: var(--skin-color);text-decoration: none;" href="https://github.com/MohammedFurkhan1" class="social-icon" target="_blank"><i class="fab fa-github"></i> GitHub URL</a></span></p>
+                                     
+                                        </div>
+
+                                    </div>
+                                    <div class="row">
+                                        <div class="buttons padd-15">
+                                            <a href="#contact" data-section-index="1" class="btn hire-me"> Hire Me</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skills padd-15">
+                                    <div class="row">
+                                        <div class="skill-item padd-15">
+                                            <h5>AWS Cloud</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 85%;"></div>
+                                                <div class="skill-percent">85%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>Docker</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 90%;"></div>
+                                                <div class="skill-percent">90%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>Kubernetes</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 80%;"></div>
+                                                <div class="skill-percent">80%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>Jenkins</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 85%;"></div>
+                                                <div class="skill-percent">85%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>Linux</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 90%;"></div>
+                                                <div class="skill-percent">90%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>Terraform</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 80%;"></div>
+                                                <div class="skill-percent">80%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>Git/GitHub</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 90%;"></div>
+                                                <div class="skill-percent">90%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>Python</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 85%;"></div>
+                                                <div class="skill-percent">85%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>Ansible</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 75%;"></div>
+                                                <div class="skill-percent">75%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>Monitoring Tools</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 80%;"></div>
+                                                <div class="skill-percent">80%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="row">
+                                <div class="education padd-15">
+                                    <h3 class="title">Education</h3>
+                                    <div class="row">
+                                        <div class="timeline-box padd-15">
+                                            <div class="timeline shadow-dark">
+                                                <!--====timeline item=====-->
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> June 2018 - September 2022
+                                                    </h3>
+                                                    <h2 class="timeline-title">B.Tech CSE</h2>
+                                                    <p class="timeline-text">
+                                                        I am a graduate of the PDA Engineering College.
+                                            </p>
+
+                                        <p class="timeline-text">
+                                            Gained comprehensive knowledge in core Computer Science fundamentals including Data Structures, Algorithms, Operating Systems, and Database Management Systems. Developed strong programming skills through practical projects and coursework.
+                                        </p>
+                                        <p class="timeline-text">
+                                            Key Academic Achievements:
+                                            • Maintained excellent academic performance with focus on computer science core subjects
+                                            • Completed courses in Advanced Programming, Web Development, and Software Engineering
+                                            • Participated in coding competitions and technical workshops
+                                            • Worked on various mini-projects involving different programming languages and technologies
+                                            • Active member of the college's Computer Science department technical club
+                                            • Collaborated with peers on group projects developing practical software solutions
+                                        </p>
+                                        
+                                                </div>
+                                              
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="experience padd-15">
+                                    <h3 class="title">Experience</h3>
+                                    <div class="row">
+                                        <div class="timeline-box padd-15">
+                                            <div class="timeline shadow-dark">
+                                                <!--====timeline item=====-->
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> April 2022 - May 2022
+                                                    </h3>
+                                                    <h2 class="timeline-title">PDA Engineering College</h2>
+                                                    <p class="timeline-text">
+
+
+                                                       <div class="project-description">
+                                                           <h3>Banking System - The Sparks Foundation Internship Project</h3>
+                                                           <p class="timeline-date">Feb 2022 - June 2022</p>
+                                                           <p class="role">Full Stack Developer</p>
+                                                           
+                                                           <div class="project-details">
+                                                               <h4>Project Overview:</h4>
+                                                               • Developed a dynamic web-based banking system that enables seamless money transfers between multiple users
+                                                               • Implemented user management system with support for 10 dummy users and new user creation functionality
+                                                               • Created transaction history tracking system with timestamp logging
+                                                               
+                                                               <h4>Technical Implementation:</h4>
+                                                               • Built responsive front-end using HTML5, CSS3, Bootstrap, and JavaScript
+                                                               • Developed backend using PHP with MySQL database integration
+                                                               • Designed and implemented two primary database tables:
+                                                                 - Users Table: Storing user information (name, email, balance)
+                                                                 - Transaction Table: Recording transfer details with timestamps
+                                                               
+                                                               <h4>Key Features:</h4>
+                                                               • User-friendly interface for viewing all registered users
+                                                               • Secure money transfer system between users
+                                                               • Real-time balance updates
+                                                               • Comprehensive transaction history tracking
+                                                               • Responsive design for multiple device compatibility
+                                                               
+                                                               <h4>Technologies Used:</h4>
+                                                               • Frontend: HTML5, CSS3, Bootstrap, JavaScript
+                                                               • Backend: PHP
+                                                               • Database: MySQL
+                                                               • Version Control: Git
+                                                               
+                                                               <h4>Project Flow:</h4>
+                                                               Home Page → View Users → Select User → Transfer Money → Select Recipient → Transaction History
+                                                           </div>
+                                                       </div>
+                                                       
+                                                        
+                                                        </p>
+                                                </div>
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                    
+                                                    </h3>
+                                                    <h4 class="timeline-title">
+                                                        
+                                                        
+                                                        College Management Project(Java)</h4>
+                                                    <p class="timeline-text">
+                                                        
+                                                        
+                                                        Capstone Project : College Management (java)
+                                                        • The College Management System leverages Java EE, JSP, and MySQL to revolutionize educational 
+                                                        administration, offering seamless integration of student, faculty, and course management for enhanced 
+                                                        efficiency and user experience. It transforms traditional college operations with dynamic web 
+                                                        interfaces and robust back-end support.
+                                                        • Technologies used : (Frontend: Java Server Pages (JSP), HTML, CSS, JavaScript),( Backend: Java 
+                                                        Servlets, MySQL Database),(Framework: Java EE (Enterprise Edition)),( IDE: Eclipse or STS),Server: 
+                                                        Apache Tomcat or equivalent.
+                                                    </p>
+                                                </div>
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> Dec – 2021 | Feb – 2022
+                                                    </h3>
+                                                    <h4 class="timeline-title">INTERNSHIP EXPEREINCE</h4>
+                                                    <p class="timeline-text">
+                                                        
+                                                        
+                                                        Worksbot Applications PVTLTD (Chennai)
+                                                        Full Stack Development(Python)
+                                                        • INVENTOS (Manufacturing Industry Inventory Management Software)
+                                                        • Developed INVENTOS, an inventory management software for the manufacturing industry, to 
+                                                        streamline tracking, management, and reporting processes. This software enhances operational 
+                                                        efficiency and provides real-time data insights. The project significantly improved inventory 
+                                                        accuracy and productivity.
+                                                        • Technologies used : HTML5, CSS, JS, Bootstrap4, Python3, Django3, SQLite3
+                                                        
+                                                        
+                                                        </p>
+                                                </div>
+                                               
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--==About Section End==-->
+            <!--==technologies Section Start==-->
+            <section class="technologies section" id="technologies">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Tech Stack</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!--==technologies Item Start==-->
+                        <div class="technologies-item padd-15">
+                            <div class="technologies-item-inner">
+                                <div class="icon">
+                                    <i class="fab fa-aws"></i>
+                                </div>
+                                <h4>AWS Cloud</h4>
+                                <p>
+                                    • EC2, S3, RDS, Lambda Services
+                                    • VPC & Network Configuration
+                                    • IAM & Security Management
+                                    • CloudWatch Monitoring
+                                    • Cost Optimization
+                                </p>
+                            </div>
+                        </div>
+                        <!--==technologies Item End==-->
+            
+                        <!--==technologies Item Start==-->
+                        <div class="technologies-item padd-15">
+                            <div class="technologies-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-code"></i>
+                                </div>
+                                <h4>Infrastructure as Code</h4>
+                                <p>
+                                    • Terraform Configuration
+                                    • CloudFormation Templates
+                                    • Resource Provisioning
+                                    • State Management
+                                    • Module Development
+                                </p>
+                            </div>
+                        </div>
+                        <!--==technologies Item End==-->
+            
+                        <!--==technologies Item Start==-->
+                        <div class="technologies-item padd-15">
+                            <div class="technologies-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-cubes"></i>
+                                </div>
+                                <h4>Containerization</h4>
+                                <p>
+                                    • Docker Container Management
+                                    • Kubernetes Orchestration
+                                    • Container Security
+                                    • Image Optimization
+                                    • Microservices Architecture
+                                </p>
+                            </div>
+                        </div>
+                        <!--==technologies Item End==-->
+            
+                        <!--==technologies Item Start==-->
+                        <div class="technologies-item padd-15">
+                            <div class="technologies-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-cogs"></i>
+                                </div>
+                                <h4>CI/CD Pipeline</h4>
+                                <p>
+                                    • Jenkins Pipeline Creation
+                                    • GitLab CI/CD
+                                    • Automated Testing
+                                    • Deployment Strategies
+                                    • Pipeline Security
+                                </p>
+                            </div>
+                        </div>
+                        <!--==technologies Item End==-->
+            
+                        <!--==technologies Item Start==-->
+                        <div class="technologies-item padd-15">
+                            <div class="technologies-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-terminal"></i>
+                                </div>
+                                <h4>Scripting & Automation</h4>
+                                <p>
+                                    • Python Scripting
+                                    • Shell Scripting
+                                    • PowerShell
+                                    • Task Automation
+                                    • Process Optimization
+                                </p>
+                            </div>
+                        </div>
+                        <!--==technologies Item End==-->
+            
+                        <!--==technologies Item Start==-->
+                        <div class="technologies-item padd-15">
+                            <div class="technologies-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-wrench"></i>
+                                </div>
+                                <h4>Configuration Management</h4>
+                                <p>
+                                    • Ansible Automation
+                                    • Puppet Configuration
+                                    • Version Control
+                                    • Infrastructure Setup
+                                    • System Management
+                                </p>
+                            </div>
+                        </div>
+                        <!--==technologies Item End==-->
+            
+                        <!--==technologies Item Start==-->
+                        <div class="technologies-item padd-15">
+                            <div class="technologies-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-shield"></i>
+                                </div>
+                                <h4>Security & Compliance</h4>
+                                <p>
+                                    • Security Best Practices
+                                    • Compliance Monitoring
+                                    • Vulnerability Scanning
+                                    • Access Management
+                                    • Security Automation
+                                </p>
+                            </div>
+                        </div>
+                        <!--==technologies Item End==-->
+            
+                        <!--==technologies Item Start==-->
+                        <div class="technologies-item padd-15">
+                            <div class="technologies-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-line-chart"></i>
+                                </div>
+                                <h4>Monitoring & Logging</h4>
+                                <p>
+                                    • Prometheus & Grafana
+                                    • ELK Stack
+                                    • Log Management
+                                    • Performance Monitoring
+                                    • Alert Configuration
+                                </p>
+                            </div>
+                        </div>
+                        <!--==technologies Item End==-->
+            
+                        <!--==technologies Item Start==-->
+                        <div class="technologies-item padd-15">
+                            <div class="technologies-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-code-fork"></i>
+                                </div>
+                                <h4>Version Control</h4>
+                                <p>
+                                    • Git Repository Management
+                                    • Branching Strategies
+                                    • Code Review Process
+                                    • Merge Conflict Resolution
+                                    • GitHub/GitLab Administration
+                                </p>
+                            </div>
+                        </div>
+                        <!--==technologies Item End==-->
+            
+                        <!--==technologies Item Start==-->
+                        <div class="technologies-item padd-15">
+                            <div class="technologies-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-database"></i>
+                                </div>
+                                <h4>Database Management</h4>
+                                <p>
+                                    • RDS Administration
+                                    • Database Backup
+                                    • Data Migration
+                                    • Performance Tuning
+                                    • High Availability Setup
+                                </p>
+                            </div>
+                        </div>
+                        <!--==technologies Item End==-->
+            
+                        <!--==technologies Item Start==-->
+                        <div class="technologies-item padd-15">
+                            <div class="technologies-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-server"></i>
+                                </div>
+                                <h4>Linux Administration</h4>
+                                <p>
+                                    • System Administration
+                                    • Service Management
+                                    • Performance Tuning
+                                    • Troubleshooting
+                                    • Security Hardening
+                                </p>
+                            </div>
+                        </div>
+                        <!--==technologies Item End==-->
+                    </div>
+                </div>
+            </section>
+            <!--==technologies Section End==-->
+            
+            <style>
+            .technologies-item {
+                flex: 0 0 33.33%;
+                max-width: 33.33%;
+                margin-bottom: 30px;
+            }
+            
+            .technologies-item-inner {
+                min-height: 300px;
+                background: var(--bg-black-100);
+                border: 1px solid var(--bg-black-50);
+                border-radius: 10px;
+                padding: 30px;
+                text-align: center;
+                transition: all 0.3s ease;
+            }
+            
+            .technologies-item-inner:hover {
+                box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+            }
+            
+            .technologies-item-inner .icon {
+                height: 60px;
+                width: 60px;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 0 auto 30px;
+                transition: all 0.3s ease;
+            }
+            
+            .technologies-item-inner .icon i {
+                font-size: 25px;
+                line-height: 60px;
+                transition: all 0.3s ease;
+            }
+            
+            .technologies-item-inner h4 {
+                font-size: 18px;
+                margin-bottom: 15px;
+                color: var(--text-black-900);
+                font-weight: 700;
+                text-transform: capitalize;
+            }
+            
+            .technologies-item-inner p {
+                font-size: 16px;
+                line-height: 25px;
+                color: var(--text-black-700);
+            }
+            </style>
+            
+            <!--==technologies Section End==-->
+
+
+
+
+           <!--==Portfolio Section Start==-->
+           <section class="portfolio section" id="portfolio">
+               <div class="container">
+                   <div class="row">
+                       <div class="section-title padd-15">
+                           <h2>Projects & Certifications</h2>
+                       </div>
+                   </div>
+                   <div class="row">
+                       <div class="portfolio-heading padd-15">
+                           <h2>Recent Projects & Certifications</h2>
+                       </div>
+                   </div>
+                   <div class="row">
+                       <!--====Project item start====-->
+                       <div class="portfolio-item padd-15">
+                           <div class="portfolio-item-inner shadow-dark">
+                               <div class="portfolio-content">
+                                   <h3>CI/CD Pipeline for Financial Services</h3>
+                                   <p class="project-description">
+                                       • Implemented end-to-end CI/CD pipeline for microservices architecture
+                                       • Reduced deployment time from 4 hours to 45 minutes
+                                       • Automated testing and security scanning
+                                       • Implemented blue-green deployment strategy
+                                       • Set up monitoring and alerting
+                                       <br><br>
+                                       <strong>Technologies:</strong> Jenkins, GitLab, Docker, Kubernetes, AWS
+                                   </p>
+                               </div>
+                           </div>
+                       </div>
+                       <!--====Project item End====-->
+           
+                       <!--====Project item start====-->
+                       <div class="portfolio-item padd-15">
+                           <div class="portfolio-item-inner shadow-dark">
+                               <div class="portfolio-content">
+                                   <h3>AWS Cloud Migration Project</h3>
+                                   <p class="project-description">
+                                       • Successfully migrated 50+ applications to AWS
+                                       • Implemented auto-scaling and load balancing
+                                       • Achieved 99.9% uptime post-migration
+                                       • Reduced infrastructure costs by 30%
+                                       • Set up disaster recovery system
+                                       <br><br>
+                                       <strong>Technologies:</strong> AWS, Terraform, CloudFormation, Route53
+                                   </p>
+                               </div>
+                           </div>
+                       </div>
+                       <!--====Project item End====-->
+           
+                       <!--====Project item start====-->
+                       <div class="portfolio-item padd-15">
+                           <div class="portfolio-item-inner shadow-dark">
+                               <div class="portfolio-content">
+                                   <h3>Kubernetes Cluster Management</h3>
+                                   <p class="project-description">
+                                       • Designed and deployed multi-node Kubernetes cluster
+                                       • Implemented service mesh with Istio
+                                       • Set up automated scaling policies
+                                       • Configured cluster monitoring
+                                       • Implemented pod security policies
+                                       <br><br>
+                                       <strong>Technologies:</strong> Kubernetes, Docker, Istio, Helm
+                                   </p>
+                               </div>
+                           </div>
+                       </div>
+                       <!--====Project item End====-->
+           
+                       <!--====Project item start====-->
+                       <div class="portfolio-item padd-15">
+                           <div class="portfolio-item-inner shadow-dark">
+                               <div class="portfolio-content">
+                                   <h3>Infrastructure Automation</h3>
+                                   <p class="project-description">
+                                       • Developed Infrastructure as Code using Terraform
+                                       • Created reusable modules for common infrastructure
+                                       • Implemented state management in S3
+                                       • Automated resource provisioning
+                                       • Integrated with CI/CD pipeline
+                                       <br><br>
+                                       <strong>Technologies:</strong> Terraform, AWS, Git, Jenkins
+                                   </p>
+                               </div>
+                           </div>
+                       </div>
+                       <!--====Project item End====-->
+           
+                       <!--====Project item start====-->
+                       <div class="portfolio-item padd-15">
+                           <div class="portfolio-item-inner shadow-dark">
+                               <div class="portfolio-content">
+                                   <h3>Monitoring & Logging Solution</h3>
+                                   <p class="project-description">
+                                       • Set up centralized logging system
+                                       • Implemented metrics collection
+                                       • Created custom dashboards
+                                       • Configured automated alerts
+                                       • Established log retention policies
+                                       <br><br>
+                                       <strong>Technologies:</strong> ELK Stack, Prometheus, Grafana
+                                   </p>
+                               </div>
+                           </div>
+                       </div>
+                       <!--====Project item End====-->
+           
+                       <!--====Certification item start====-->
+                       <div class="portfolio-item padd-15">
+                           <div class="portfolio-item-inner shadow-dark">
+                               <div class="portfolio-content">
+                                   <h3>Professional Certifications</h3>
+                                   <p class="certification-list">
+                                       <strong>AWS Certified Solutions Architect - Associate</strong>
+                                       <br>
+                                       • Cloud architecture design
+                                       • Security best practices
+                                       • Cost optimization
+                                       • High availability patterns
+                                       <br><br>
+                                       <strong>Certified Kubernetes Administrator (CKA)</strong>
+                                       <br>
+                                       • Cluster management
+                                       • Security configurations
+                                       • Troubleshooting
+                                       • Performance optimization
+                                   </p>
+                               </div>
+                           </div>
+                       </div>
+                       <!--====Certification item End====-->
+                       
+                   </div>
+               </div>
+           </section>
+           <!--==Portfolio Section End==-->
+           
+           <style>
+           .portfolio-item {
+               flex: 0 0 33.33%;
+               max-width: 33.33%;
+               margin-bottom: 30px;
+           }
+           
+           .portfolio-item-inner {
+               min-height: 350px;
+               background: var(--bg-black-100);
+               border: 1px solid var(--bg-black-50);
+               border-radius: 10px;
+               padding: 25px;
+               transition: all 0.3s ease;
+           }
+           
+           .portfolio-item-inner:hover {
+               box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+           }
+           
+           .portfolio-content h3 {
+               font-size: 18px;
+               margin-bottom: 15px;
+               color: var(--skin-color);
+               font-weight: 700;
+           }
+           
+           .project-description, .certification-list {
+               font-size: 16px;
+               line-height: 1.6;
+               color: var(--text-black-700);
+           }
+           
+           .portfolio-content strong {
+               color: var(--text-black-900);
+           }
+           </style>
+           
+            <!--==Contact us Section Start==-->
+            <section class="contact section" id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Contact Me</h2>
+                        </div>
+                    </div>
+                    <h3 class="contact-title padd-15">Have Any Questions? </h3>
+                    <h4 class="contact-sub-title padd-15">Contact me directly!</h4>
+
+                    <div class="row">
+                        <!-------====Contact info item start====------->
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-phone"></i></div>
+                            <h4>Call Me On</h4>
+                            <p>+91 8217405450</p>
+                        </div>
+                        <!-------====Contact info item End====------->
+                        <!-------====Contact info item start====------->
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-location-dot"></i></div>
+                            <h4>Location</h4>
+                            <p>Hyderabad , INDIA</p>
+                        </div>
+                        <!-------====Contact info item End====------->
+                        <!-------====Contact info item start====------->
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                            <h4>Email</h4>
+                            <p><a class="pointer" href="mailto:mohammedfurkhan073@gmail.com"> mohammedfurkhan073@gmail.com </a></p>
+                        </div>
+                        <!-------====Contact info item End====------->
+                        <!-------====Contact info item start====------->
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa-brands fa-linkedin"></i></div>
+                            <h4>Linkedin</h4>
+                            <p><a class="pointer" href="https://www.linkedin.com/in/mohammed-furkhan-93256b1a2 ">Mohammed Furkhan</a></p>
+                        </div>
+                      
+                        
+                        <!-------====Contact info item End====------->
+                    </div>
+                    <h3 class="contact-title padd-15">Send Me A Message</h3>
+                    <h4 class="contact-sub-title padd-15">I'm Very Responsive to messages!</h4>
+
+                   
+             
+
+                </div>
+            </section>
+            <!--===========Contact us Section End============-->
+        </div>
+    </div>
+    <!--===========Main Container End=============-->
+    <!--===========Style Switcher Start===========-->
+    <div class="style-switcher">
+        <div class="style-swithcher-toggler s-icon">
+            <i class="fas fa-cog fa-spin"></i>
+        </div>
+        <div class="day-night s-icon">
+            <i class="fas"></i>
+        </div>
+        <h4>Theme Colors</h4>
+        <div class="colors">
+            <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+            <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+            <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+            <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+            <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+        </div>
+    </div>
+    <!--==========Style Switcher End=======-->
+    <!--===JS files===-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js" integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/script.js"></script>
+    <script src="js/style-switcher.js"></script>
+</body>
+
+</html>
+<!-- Build By Mohammed Furkhan on MAY 09 2025 -->
